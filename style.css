@@ -143,6 +143,11 @@ html{
     font-size: 1.1rem;
 }
 
+.info{
+    color: lightgreen;
+    font-weight: bold;
+}
+
 /*About Section*/
 #about{
     display: flex;
