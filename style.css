@@ -231,6 +231,16 @@ html{
     cursor: pointer;
 }
 
+.IconContact{
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.ContactIcons{
+    flex-direction: wrap;
+    justify-content: center;
+}
 /* Stylar min footer */
 footer {
     text-align: center;
