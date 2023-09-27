@@ -235,6 +235,7 @@ html{
     display: flex;
     font-size: 45px;
     justify-content: center;
+    transform: .1.5s; /* Gör lite animation till icon i contact.html */
 }
 
 .ContactIcons1,
@@ -251,6 +252,14 @@ html{
 .ContactIcons2{
     margin-right: 15px;
 }
+
+.ContactIcons1:hover,
+.ContactIcons2:hover,
+.ContactIcons3:hover{
+    transform: scale(1.3); /* Gör lite animation till icon i contact.html */
+}
+
+
 /* Stylar min footer */
 footer {
     text-align: center;
@@ -269,10 +278,9 @@ footer {
     margin-left: 80px;
     margin-right: 10px;
     font-size: 66px;
-    transform: .1.5s; /* Gör lite animation till icon i contact.html */
   }
   
-  .social-icon :hover, .social-icons :hover {
+  .social-icon :hover, 
+  .social-icons :hover {
     cursor: pointer; /* Ändra pekaren till en hand när du hovrar över knappen */
-    transform: scale(1.3); /* Gör lite animation till icon i contact.html */
   }
