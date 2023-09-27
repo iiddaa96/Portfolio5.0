@@ -225,15 +225,17 @@ html{
     width: 15%;
     border-radius: 20px;
     background-color: lightgreen;
-    color: white;
+    color: black;
     border: none;
     outline: none;
+    transform: .1.3s; /* Gör lite animation till icon i contact.html */
 }
 
 #submit:hover{
     background-color: darkgreen;
-    color: white;
+    color: black;
     cursor: pointer;
+    transform: scale(1.2); /* Gör lite animation till icon i contact.html */
 }
 
 .IconContact{
