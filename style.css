@@ -237,9 +237,19 @@ html{
     justify-content: center;
 }
 
-.ContactIcons{
+.ContactIcons1,
+.ContactIcons2,
+.ContactIcons3{
     flex-direction: wrap;
     justify-content: center;
+}
+
+.ContactIcons1{
+    margin-right: 15px;
+}
+
+.ContactIcons2{
+    margin-right: 15px;
 }
 /* Stylar min footer */
 footer {
